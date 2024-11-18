@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "76899943990",
+    "project_id": "carfixer-569cd",
+    "storage_bucket": "carfixer-569cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76899943990:android:f4d8eb45255e4dd8a13a97",
+        "android_client_info": {
+          "package_name": "com.example.carfixer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76899943990-eda8i84otpcjrmur1fud3n7hn6icgimi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-gb1whFYq0Y_Yv3QVK2upkfwshAEwEuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76899943990-534nj478ijekm54omqhk04hi9mquvb0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

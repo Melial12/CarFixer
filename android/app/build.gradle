@@ -1,0 +1,46 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin" // Pastikan Flutter plugin ada di sini
+    id 'com.google.gms.google-services'    // Plugin Google Services
+}
+
+android {
+    namespace = "com.example.carfixer"
+    compileSdkVersion 34                    // Tentukan versi SDK yang sesuai
+    ndkVersion "21.4.7075529"               // Tentukan versi NDK yang sesuai atau sesuaikan dengan Flutter SDK Anda
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+    applicationId "com.example.carfixer"
+    minSdkVersion 23  // Ubah dari 21 ke 23
+    targetSdkVersion flutter.targetSdkVersion
+    versionCode flutter.versionCode
+    versionName flutter.versionName
+    multiDexEnabled true
+}
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug // Gunakan debug signing untuk sementara
+        }
+    }
+}
+
+flutter {
+    source = "../.."  // Tentukan lokasi folder Flutter
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:33.4.0') // Gunakan BOM Firebase
+    implementation 'com.google.firebase:firebase-analytics'            // Firebase Analytics
+    implementation 'com.google.android.gms:play-services-auth:20.4.1'  // Google Sign-In
+}

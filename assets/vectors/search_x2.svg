@@ -1,0 +1,14 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask_0_51_25" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="19.476801" height="19.476999">
+<rect  x="0" y="0" width="38.954" height="38.954" fill="#000000"/>
+</mask>
+<mask id="mask_0_51_30" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="30.479858" y="31.41391" width="5.024051" height="5.01475">
+<rect  x="30.48" y="31.414" width="10.048" height="10.03" fill="#000000"/>
+</mask>
+<g mask="url(#mask_0_51_25)">
+<path d="M19.478,3C10.392,3 3,10.39 3,19.476C3,28.562 10.392,35.954 19.478,35.954C28.562,35.954 35.954,28.562 35.954,19.476C35.954,10.39 28.562,3 19.478,3M19.478,38.954C8.738,38.954 0,30.216 0,19.476C0,8.736 8.738,0 19.478,0C30.218,0 38.954,8.736 38.954,19.476C38.954,30.216 30.218,38.954 19.478,38.954Z" clip-rule="evenodd" fill-rule="evenodd" fill="#000000"/>
+</g>
+<g mask="url(#mask_0_51_30)">
+<path d="M39.028,41.443C38.646,41.443 38.262,41.297 37.968,41.005L30.92,33.977C30.334,33.391 30.332,32.441 30.918,31.855C31.502,31.265 32.452,31.269 33.04,31.851L40.088,38.881C40.674,39.467 40.676,40.415 40.09,41.001C39.798,41.297 39.412,41.443 39.028,41.443Z" clip-rule="evenodd" fill-rule="evenodd" fill="#000000"/>
+</g>
+</svg>
